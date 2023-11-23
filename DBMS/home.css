@@ -1,0 +1,27 @@
+.signout{
+  display: flex;
+  position: absolute;
+  top: 92%;
+  right: 0;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: red;
+  font-weight: bold;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  height: 99vh;
+}
+
+.navbar a {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+  padding: 20px;
+}

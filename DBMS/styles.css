@@ -1,0 +1,104 @@
+*{
+  list-style: none;
+  text-decoration: none;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+    padding: 0%;
+    margin: 0%;
+    background: url("pay.png");
+    background-size: cover; 
+   } 
+ 
+  label button {
+    float: right;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 14px;
+    background-color: red;
+    font-weight: bold;
+  }
+  .login {
+    width: 320px;
+    height: 400px;
+    background: #6a6565;
+    color: #fff;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-left: 27%;
+
+  }
+  .icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+
+  h1 {
+    margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .login p {
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .login input {
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .login input[type="text"],
+  input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+  }
+ 
+  
+  .login input[type="submit"] {
+    border: none;
+    outline: none;
+    background: #fb2525;
+    color: white;
+    font-size: 17px;
+    border-radius: 80px;
+    float: right;
+  }
+  
+.head h1{
+  display: flex;
+  margin-left: 30px;
+  padding: 5px;
+  color: white;
+  background-color: #6a6565;
+  line-height: 50px;
+  font-size: 40px;
+}
+.signout{
+  display: flex;
+  position: absolute;
+  right: 10px;
+  margin-top: 39.7%;
+  margin-right: 10px;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: red;
+  font-weight: bold;
+}
